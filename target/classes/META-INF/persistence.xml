@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="horaaventura" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<class>br.edu.unifei.ecot13.trabalho.Arma</class>
+		<class>br.edu.unifei.ecot13.trabalho.Bolsa</class>
+		<class>br.edu.unifei.ecot13.trabalho.CidadelaAlemDoMultiverso</class>
+		<class>br.edu.unifei.ecot13.trabalho.Encarocado</class>
+		<class>br.edu.unifei.ecot13.trabalho.EntidadeElementar</class>
+		<class>br.edu.unifei.ecot13.trabalho.EntidadesCosmicas</class>
+		<class>br.edu.unifei.ecot13.trabalho.Eventos</class>
+		<class>br.edu.unifei.ecot13.trabalho.Governante</class>
+		<class>br.edu.unifei.ecot13.trabalho.Humano</class>
+		<class>br.edu.unifei.ecot13.trabalho.Magico</class>
+		<class>br.edu.unifei.ecot13.trabalho.Missao</class>
+		<class>br.edu.unifei.ecot13.trabalho.Mo</class>
+		<class>br.edu.unifei.ecot13.trabalho.Multiverso</class>
+		<class>br.edu.unifei.ecot13.trabalho.Objeto</class>
+		<class>br.edu.unifei.ecot13.trabalho.Pocao</class>
+		<class>br.edu.unifei.ecot13.trabalho.PovoDoce</class>
+		<class>br.edu.unifei.ecot13.trabalho.PovoLimao</class>
+		<class>br.edu.unifei.ecot13.trabalho.Reino</class>
+		<class>br.edu.unifei.ecot13.trabalho.SeresVivos</class>
+		<class>br.edu.unifei.ecot13.trabalho.Vilas</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/horaaventura?useTimezone=true&amp;serverTimezone=UTC"/>
+            <property name="javax.persistence.jdbc.user" value="horaaventura"/>
+            <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.password" value="horaaventura"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect"/>
+            <property name="javax.persistence.schema-generation.database.action" value="none"/>
+        </properties>
+    </persistence-unit>
+</persistence>

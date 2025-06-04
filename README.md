@@ -1,4 +1,4 @@
-# Projeto-com-SpringBot
+# Projeto com Java Swing
 
 Este projeto é uma aplicação Java que modela elementos do universo de "Hora de Aventura", utilizando Java, JPA (Java Persistence API) e Swing para interface gráfica. A aplicação simula uma civilização inspirada na série, permitindo criar, alterar, excluir e visualizar entidades como personagens, armas, objetos, reinos e outros elementos do mundo fictício.
 
